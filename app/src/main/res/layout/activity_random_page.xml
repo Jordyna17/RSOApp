@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RsoName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listscreen"
+    tools:context=".RandomPage">
+
+    <TextView
+        android:id="@+id/RSONAME"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="21dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/Rsoemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rsodescription"
+        android:layout_width="213dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="263dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rsoemail" />
+
+    <TextView
+        android:id="@+id/Rsoemail"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="25dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/rsodescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RSONAME" />
+</android.support.constraint.ConstraintLayout>
