@@ -16,23 +16,9 @@ public class ExampleUnitTest {
 
     @Test
     public void toTest() {
-        try {
-           app = MainActivity.test();
-        } catch(Exception e) {
-
-        }
-
-        Assert.assertEquals(app.RSO[0].email, "illinichessclub@hotmail.com");
     }
 
     @Test
     public void toTestTags() {
-        String[] testTags = {"sport", "relaxed", "mental"};
-        try {
-            app = MainActivity.test();
-        } catch(Exception e) {
-
-        }
-        Assert.assertArrayEquals(app.RSO[0].tags, testTags);
     }
 }

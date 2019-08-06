@@ -1,0 +1,27 @@
+{
+	"RSO": [{
+			"org_name": "Illini Chess Club",
+			"leader": "Mihir Bafna",
+			"email": "illinichessclub@hotmail.com",
+			"description": "Lets Play Chess!",
+			"tags": [
+				"sport",
+				"relaxed",
+				"mental"
+			]
+		},
+
+		{
+			"org_name": "Alpha Phi Omega",
+			"leader": "Shriya Bhargava",
+			"email": "president@apo-aa.org",
+			"description": "Alpha Phi Omega (APO) is a national co-ed service fraternity with active  chapters on over 350 college campuses. We aim to develop leadership, promote friendship, and provide service to the community, college, nation, and fraternity. Alpha Phi Omega was founded at Lafayette College in Easton, Pennsylvania on December 16, 1925. The Alpha Alpha Chapter of APO was founded at the University of Illinois at Urbana-Champaign on March 31, 1932. ",
+			"tags": [
+				"service",
+				"leadership",
+				"friendship",
+				"fraternity"
+			]
+		}
+	]
+}
